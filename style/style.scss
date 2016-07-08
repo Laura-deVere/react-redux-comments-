@@ -1,0 +1,42 @@
+$navy: #042145;
+$blue: #1f38a4;
+$purple: #804fc4;
+$lighter-purple: #d275e6;
+$pink: #f375e4;
+
+
+body {
+	background-color: #ccc;
+}
+
+.my-container {
+	margin: 0 auto;
+	border: 1px solid #042145;
+	background-color: $blue;
+	display: flex;
+	width: 75%;
+	padding: 0;
+}
+
+.comment-list {
+	width: 40%;
+	ul {
+		list-style-type: none;
+		color: $pink;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	li {
+		border: 1px solid $navy;
+		width: 100%;
+		padding: 10px;
+		height: 60px;
+	}
+}
+
+.comment-body {
+	width: 55%;
+	margin-left: 30px;
+	color: $pink;
+}
